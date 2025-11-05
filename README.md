@@ -38,7 +38,7 @@ All tasks are saved in **localStorage**, so your data stays even after you refre
 
 1. **Clone the repository**
    
-   - git clone https://github.com/yourusername/react-todo-app.git
+   - git clone https://github.com/Kishor-Pashte/TODO-APP.git
    
 3. **Navigate to the project directory**
    
