@@ -54,6 +54,8 @@ All tasks are saved in **localStorage**, so your data stays even after you refre
    
 Visit 👉 http://localhost:3000
 
+---
+
 ## 💡 Future Improvements
 
 - ⏰ Add due dates for tasks
