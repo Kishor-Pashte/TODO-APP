@@ -24,6 +24,29 @@
   color: white;
 }
 
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.todoList {
+  text-align: center;
+}
+
+.todoList input {
+  height: 40px;
+  width: 60%;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+.todoList .bt {
+  height: 45px;
+  width: 15%;
+  border-radius: 10px;
+  background-color: bisque;
+}
+
 .App-link {
   color: #61dafb;
 }
