@@ -37,23 +37,28 @@ All tasks are saved in **localStorage**, so your data stays even after you refre
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository**
-   git clone https://github.com/yourusername/react-todo-app.git
    
-2. **Navigate to the project directory**
-   cd react-todo-app
+   - git clone https://github.com/yourusername/react-todo-app.git
+   
+3. **Navigate to the project directory**
+   
+   - cd react-todo-app
 
-3. **Install dependencies**
-   npm install
-   Start the app
+5. **Install dependencies**
 
-4. **Start the App**
-   npm start
+   - npm install
+
+7. **Start the App**
+
+   - npm start
    
 Visit 👉 http://localhost:3000
 
-##💡 Future Improvements
-  ⏰ Add due dates for tasks
-  🗂️ Add categories or tags
-  🌙 Dark / Light mode toggle
-  ☁️ Connect to backend (Node.js + MongoDB) for real database storage
+## 💡 Future Improvements
 
+- ⏰ Add due dates for tasks
+- 🗂️ Add categories or tags
+- 🌙 Dark / Light mode toggle
+- ☁️ Connect to backend (Node.js + MongoDB) for real database storage 
+
+  
