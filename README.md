@@ -3,6 +3,8 @@
 A simple and elegant **Todo App** built using **React.js** that allows users to add, delete, and mark tasks as completed.  
 All tasks are saved in **localStorage**, so your data stays even after you refresh the page!
 
+Live Link - https://todo-app-kappa-five-87.vercel.app/
+
 ---
 
 ## 🚀 Features
