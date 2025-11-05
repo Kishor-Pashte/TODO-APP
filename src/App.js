@@ -4,19 +4,6 @@ export default function App() {
   const [inputValue, setInputValue] = useState("");
   const [todos, setTodos] = useState([]);
 
-  // Load todos from localStorage on first render
-  useEffect(() => {
-    const savedTodos = JSON.parse(localStorage.getItem("todos"));
-    if (savedTodos) {
-      setTodos(savedTodos);
-    }
-  }, []);
-
-  // Save todos to localStorage whenever they change
-  useEffect(() => {
-    localStorage.setItem("todos", JSON.stringify(todos));
-  }, [todos]);
-
   const handleAddTodo = () => {
     if (inputValue.trim() === "") return; //for empty
     const newTodo = {
@@ -27,11 +14,6 @@ export default function App() {
     setTodos([...todos, newTodo]);
     setInputValue("");
   };
-
-  // const handleDeleteTodo = (id) => {
-  //   setTodos(todos.filter(t) => t.id !== todo.id)
-
-  // }
 
   const handleMarkDone = (id) => {
     setTodos(
@@ -44,6 +26,7 @@ export default function App() {
   const handleDelete = (id) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
+
   return (
     <div
       style={{
